@@ -9,8 +9,8 @@ $resArray=hash_call("$ApiCall",$request);
 
 //Data that is needed to Build Request String
 $API_UserName = "mtspay_1284575992_biz_api1.hotmail.com";
-$API_Password = "AUTTGF628Q3QA78H";
-$API_Signature = "AoB5IIgQBTtFGERB4hWpnN2n.6B8ASc7I8FoZTaBGuGDiYIVnxa1jArj";
+$API_Password = "DTZS3VGQF75JV647";
+$API_Signature = "An5ns1Kso7MWUdW4ErQKJJJ4qi4-AZVoZ.Ltf3-7hSI7Lm7ctNcn0F.d";
 $nvpHeader = "&PWD=".urlencode($API_Password)."&USER=".urlencode($API_UserName)."&SIGNATURE=".urlencode($API_Signature)."&";
 $request = $nvpHeader."METHOD=$ApiCall";
 
